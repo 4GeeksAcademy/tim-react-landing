@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./styles.css";
 function MyNavbar(){
     return (
         <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
@@ -20,7 +20,7 @@ function MyNavbar(){
                 <a class="nav-link" href="#">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
           </div>
